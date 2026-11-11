@@ -25,9 +25,17 @@ SOC Infrastructure
 Splunk
 Linux Administration
 
+
+
 # SIEM Deployment
 Splunk Enterprise 
 Web Interface
 SSH Access
 Receiving Port 9997
 # Centralized Logging
+
+# IDS/IPS 
+# Attack Simulation
+# Security Hardening
+# SOC Operations
+# AI Integration

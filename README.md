@@ -57,6 +57,10 @@ Windows Client
 Security Policy
 <img width="623" height="359" alt="image" src="https://github.com/user-attachments/assets/02c99e4b-39c4-42b3-ba36-ba290b3040f8" />
 
+Just another Security Measure
+<img width="612" height="646" alt="image" src="https://github.com/user-attachments/assets/dde1bde4-e95e-4260-a6f4-7882e4903d00" />
+
+
 Domain User Workstation
 
 Ubuntu Server

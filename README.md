@@ -17,7 +17,6 @@ firewall
 Created firewall rules for network communication and network security
 <img width="1273" height="703" alt="PfSense_Firewall_Rule_LAN" src="https://github.com/user-attachments/assets/38c6c7d6-a7ba-4a4a-90a9-4c3c79de4926" />
 
-
 # Enterprise Systems
 I deployed virtual machines for an IT simulation and hardened LAN network and machines' security and policies. 
 Windows Server 
@@ -44,9 +43,35 @@ Linux Administration
 # SIEM Deployment
 The set up I used for the SIEM server was on an ubuntu server in a DMZ network
 Splunk Enterprise 
-Web Interface
-SSH Access
+
+Splunk Web Interface Accessed through windows client
+<img width="996" height="652" alt="Splunk-Dashboard" src="https://github.com/user-attachments/assets/82fe7340-bf92-4f46-897c-2b790d95c8ad" />
+
 Receiving Port 9997
+<img width="637" height="464" alt="Splunk_Receiving_Conf_WEBGUI" src="https://github.com/user-attachments/assets/2846a9f3-6e3f-43a9-9746-1c56e847ecc4" />
+
+Windows Splunk Forwarder Configuration
+<img width="1279" height="712" alt="splunk_forwarders_confpng" src="https://github.com/user-attachments/assets/b7550395-8bca-4998-812a-f848b92b764f" />
+
+Troubleshooting Errors
+
+Error Downloading Splunk package
+write: error, Not enough space on my virtual disk.
+<img width="1280" height="524" alt="dpkg-error" src="https://github.com/user-attachments/assets/2aa119aa-d061-4305-afc5-b5874858cb56" />
+
+Expanded my storage
+<img width="638" height="538" alt="resize" src="https://github.com/user-attachments/assets/bf855a4d-55d4-4ee1-bbe6-a988060493df" />
+
+Expanded my file system
+<img width="638" height="242" alt="grow_filesystem" src="https://github.com/user-attachments/assets/c21ab08f-9805-4efe-89b3-fec0d4e96400" />
+
+Splunk Start Error: Permission Denied
+<img width="644" height="662" alt="splunk_start_error" src="https://github.com/user-attachments/assets/c11bd5f4-7347-4200-b3f6-21abb791754f" />
+Meaning there was something wrong with user permissions like read, write and execute
+Fix: Change user permissions for the file
+<img width="636" height="90" alt="chown" src="https://github.com/user-attachments/assets/61e0efbc-a3b0-4ebb-ba3d-c4e797f6d2c2" />
+
+
 # Centralized Logging
 Installed universal splunk forwarders, and sysmon for exprehensive logs indexed on splunk
 

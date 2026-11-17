@@ -32,12 +32,17 @@ Testing DMZ  firewall rules
 <img width="394" height="153" alt="DMZ_Firewall_Rule_Test" src="https://github.com/user-attachments/assets/d3f53a61-68a0-4934-b9b5-34fa21005695" />
 
 # Enterprise Systems
-I deployed virtual machines for an IT simulation and hardened LAN network and machines' security and policies. 
-Windows Server 
+I deployed virtual machines for an IT simulation and hardened LAN network and machines' security and policies.
 
-Windows Server
-
+Windows Server Dashboard
 <img width="641" height="673" alt="image" src="https://github.com/user-attachments/assets/660b9c99-b4b3-41f1-b785-aa3735ff8d4c" />
+
+Active Directory Users and Computers
+<img width="302" height="132" alt="image" src="https://github.com/user-attachments/assets/5b619fca-3f0c-4833-85a9-b8957d0003f1" />
+
+DNS Forwarders
+<img width="467" height="480" alt="image" src="https://github.com/user-attachments/assets/4762824e-d401-4665-8fbb-1c8d5036eced" />
+
 
 Purpose: 
 Identity Management 
@@ -46,6 +51,12 @@ DNS
 
 Windows Client
 Purpose: 
+Windows Client
+<img width="253" height="214" alt="image" src="https://github.com/user-attachments/assets/d19c826a-7a29-44ca-a690-12174d935a81" />
+
+Security Policy
+<img width="623" height="359" alt="image" src="https://github.com/user-attachments/assets/02c99e4b-39c4-42b3-ba36-ba290b3040f8" />
+
 Domain User Workstation
 
 Ubuntu Server

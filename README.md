@@ -15,7 +15,21 @@ I started with a pfsense router and segmented the network into WAN, LAN and a DM
 
 firewall
 Created firewall rules for network communication and network security
+
+WAN Firewall Rules
+<img width="1280" height="787" alt="PfSense_WAN_Interface" src="https://github.com/user-attachments/assets/b2fbd5ed-5c81-44ba-9ced-17567006b258" />
+
+LAN Firewall Rules
 <img width="1273" height="703" alt="PfSense_Firewall_Rule_LAN" src="https://github.com/user-attachments/assets/38c6c7d6-a7ba-4a4a-90a9-4c3c79de4926" />
+
+DMZ Firewall Rules
+<img width="636" height="701" alt="DMZ_FirewallRules" src="https://github.com/user-attachments/assets/5997191d-b2de-43ae-b6b7-5dad1a73bc46" />
+
+DMZ Port Forwarding Rules 
+<img width="637" height="738" alt="DMZ_FireWall_Port_Forwarding" src="https://github.com/user-attachments/assets/f39a1686-5a83-49f8-85af-a4ef71db5aaa" />
+
+Testing DMZ  firewall rules
+<img width="394" height="153" alt="DMZ_Firewall_Rule_Test" src="https://github.com/user-attachments/assets/d3f53a61-68a0-4934-b9b5-34fa21005695" />
 
 # Enterprise Systems
 I deployed virtual machines for an IT simulation and hardened LAN network and machines' security and policies. 
